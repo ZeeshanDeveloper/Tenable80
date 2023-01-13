@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description"
+        content="Gain visibility across your attack surface, focus efforts to prevent likely attacks, and accurately communicate exposure risk to support optimal business performance.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tenable One - Exposure Management Platform | Tenable® | Tenable®</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="robots" content="noindex">
+    <!-- fevicon icon -->
+    <link rel="apple-touch-icon" sizes="180x180"
+        href="/sites/all/themes/tenablefourteen/img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32"
+        href="/sites/all/themes/tenablefourteen/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16"
+        href="/sites/all/themes/tenablefourteen/img/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/sites/all/themes/tenablefourteen/img/favicons/manifest.json">
+    <link rel="mask-icon" href="/sites/all/themes/tenablefourteen/img/favicons/safari-pinned-tab.svg" color="#00a5b5">
+    <link rel="shortcut icon" href="/sites/all/themes/tenablefourteen/img/favicons/favicon.ico">
+
+    <!-- Custome Styles -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://www.tenable.com/themes/custom/tenable/dist/main.css" /> -->
+
+    <link href='css/owl.carousel.min.css' rel="stylesheet" type="text/css"/>
+
+    <script>
+        //  Google Optimize
+
+        (function (a, s, y, n, c, h, i, d, e) {
+            s.className += ' ' + y; h.start = 1 * new Date;
+            h.end = i = function () { s.className = s.className.replace(RegExp(' ?' + y), '') };
+            (a[n] = a[n] || []).hide = h; setTimeout(function () { i(); h.end = null }, c); h.timeout = c;
+        })(window, document.documentElement, 'async-hide', 'dataLayer', 4000,
+            { 'GTM-M2X2CS8': true });
+
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-2024167-13', 'auto', { allowLinker: true });
+        ga('require', 'GTM-M2X2CS8');
+
+        //  End Google Optimize
+
+        // Google Tag Manager
+
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag("consent", "default", {
+            ad_storage: "denied",
+            analytics_storage: "denied",
+            wait_for_update: 5000,
+            region: ['AT', 'BE', 'BG', 'HR', 'CY', 'CZ', 'DK', 'EE', 'FI', 'FR', 'DE', 'GR', 'HU', 'IE', 'IT', 'LA', 'LT', 'LU', 'MT', 'NL', 'PL', 'PT', 'RO', 'SK', 'SI', 'ES', 'SE', 'GB', 'IS', 'LI', 'NO', 'CH', 'CA'],
+        });
+
+        gtag("set", "ads_data_redaction", true);
+
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NBM4TM');
+
+        // End Google Tag Manager
+
+    </script>
+</head>
+
+<body>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NBM4TM" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- Page Content start -->
+    <!-- hero section start -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="header">
+                <div class="logo-wrap">
+                    <div class="tenable-logo">
+                        <a href="https://www.tenable.com/products/tenable-one">
+                            <!-- <img src="https://static.tenable.com/press/logos/products/Tenable-One-FullColor-RGB-logo.png" alt="Tenable-one Logo"> -->
+                            <img src="./img/Logo-TenableOne.svg" alt="Tenable-one Logo">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-wrap">
+                <div class="hero-content">
+                    <h1 class="hero-title"><span class="overflow"><span>Anticipate attacks.</span></span> <br> <span class="overflow"><span>reduce your cyber risk.</span></span></h1>
+                    <ul class="hero-bullet-list">
+                        <li class="list-item">With Tenable One, you can now translate technical asset, vulnerability and
+                            threat data into clear business insights and actionable intelligence for security
+                            executives.</li>
+                        <li class="list-item">Combine broad exposure coverage spanning IT assets, cloud resources,
+                            containers, web apps and identity platforms, with threat intelligence and data science from
+                            Tenable Research.</li>
+                        <li class="list-item">Focus efforts to prevent likely attacks and accurately communicate cyber
+                            risk to support optimal business performance.</li>
+                    </ul>
+                    <a href="javascript:void(0)" class="cta-watch-video">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="37" viewBox="0 0 36 37" fill="none">
+                            <g clip-path="url(#clip0_3522_5014)">
+                                <circle cx="18" cy="18.5" r="18" fill="#0079DD" />
+                                <path
+                                    d="M24.4546 17.1683C25.1583 17.5453 25.1583 18.5543 24.4546 18.9313L14.9722 24.0111C14.3061 24.368 13.5 23.8854 13.5 23.1296V12.97C13.5 12.2142 14.3061 11.7316 14.9722 12.0885L24.4546 17.1683Z"
+                                    fill="white" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_3522_5014">
+                                    <rect width="36" height="36" fill="white" transform="translate(0 0.5)" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        <p>Watch the Video</p>
+                    </a>
+                </div>
+                <div class="hero-form">
+                    <div class="form-content product-get-started__form">
+                        <h3 class="heading active">Get Started With </br>Tenable One</h3>
+                        <form data-formId="7469"
+                            data-followup="https://www.tenable.com/products/tenable-one/evaluate/thank-you">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="exposure-management">
+                <div class="section-title">Exposure Management Platform</div>
+                <div class="exposure-block-wrap">
+                    <div class="exposure-block">
+                        <img src="./img/Icon-Exposure View.png" alt="Exposure View">
+                        <div class="exposure-detail">
+                            <div class="block-title">Exposure View</div>
+                            <div class="block-subtitle">Aggregated Cyber Risk Insights</div>
+                        </div>
+                    </div>
+                    <div class="seperator"><img src="./img/seperator-dots.png" alt="Seperator"></div>
+                    <div class="exposure-block">
+                        <img src="./img/Icon-Attack Path Analysis.png" alt="Attack Path Analysis">
+                        <div class="exposure-detail">
+                            <div class="block-title">Attack Path Analysis</div>
+                            <div class="block-subtitle">Breach & Attack Mitigation</div>
+                        </div>
+                    </div>
+                    <div class="seperator"><img src="./img/seperator-dots.png" alt="Seperator"></div>
+                    <div class="exposure-block">
+                        <img src="./img/Icon-Asset Inventory.png" alt="Asset Inventory">
+                        <div class="exposure-detail">
+                            <div class="block-title">Asset Inventory</div>
+                            <div class="block-subtitle">Centralized View of Assets</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- hero section end -->
+    <!-- Attack section start -->
+    <section class="attack-section">
+        <div class="container">
+            <h2 class="section-title">Get a Single, Unified View of Your Modern Attack Surface</h2>
+            <h5 class="section-subtitle">Tenable One is an exposure management platform that combines risk-based
+                vulnerability management, web application security, cloud security and identity security.</h5>
+            <div class="video-wrapper">
+                <div id="video-t-one" class="video-container">
+                    <img style="width: 100%; margin: auto; display: block;" class="vidyard-player-embed"
+                        src="https://play.vidyard.com/hDUDPoYpqpxx6ZQSieyjK5.jpg" data-uuid="hDUDPoYpqpxx6ZQSieyjK5"
+                        data-v="4" data-type="inline" />
+                </div>
+            </div>
+            <div class="attack-block-wrap">
+                <div class="attack-block">
+                    <div class="attack-detail">
+                        <div class="title">
+                            <img src="./img/Icon-Comprehensive Visibility.png" alt="Comprehensive Visibility">
+                            <div class="block-title">Comprehensive<br> Visibility</div>
+                        </div>
+                        <p class="block-text">Tenable One helps your cybersecurity teams gain a unified view of all
+                            assets and associated software vulnerabilities, configuration vulnerabilities and
+                            entitlement vulnerabilities, whether on-prem or in the cloud, to understand where you are
+                            exposed to risk.</p>
+                    </div>
+                    <div>
+                        <img src="./img/dotted-line.svg" alt="Dotted Line" class="dotted-line">
+                    </div>
+                </div>
+                <div class="attack-block">
+                    <div class="attack-detail">
+                        <div class="title">
+                            <img src="./img/Icon-Predict & Prioritize.png" alt="Predict & Prioritize">
+                            <div class="block-title">Predict<br> & Prioritize</div>
+                        </div>
+                        <p class="block-text">The platform helps security leaders anticipate the consequences of a cyber
+                            attack by drawing upon the industry's largest data set and understanding relationships
+                            between assets, exposures, privileges and threats across an attack path.</p>
+                    </div>
+                    <div>
+                        <img src="./img/dotted-line.svg" alt="Dotted Line" class="dotted-line">
+                    </div>
+                </div>
+                <div class="attack-block">
+                    <div class="attack-detail">
+                        <div class="title">
+                            <img src="./img/Icon-Effectively Communicate Cyber Risk.png" alt="Effectively Communicate Cyber Risk">
+                            <div class="block-title">Effectively Communicate <br>Cyber Risk</div>
+                        </div>
+                        <p class="block-text">Security executives and business leaders have a centralized and
+                            business-aligned view of cyber risk. Clear KPIs show progress over time with bench marking
+                            against external peers. The platform provides actionable insights into your overall cyber
+                            risk, with the ability to drill into departmental or operational units.</p>
+                    </div>
+                    <div>
+                        <img src="./img/dotted-line.svg" alt="Dotted Line" class="dotted-line">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Attack section end -->
+    <!-- Cyber risk start -->
+    <section class="cyber-risk">
+        <div class="container">
+            <div class="content">
+                <h2 class="section-title">Address and <br> Manage Your Cyber Risk</h2>
+                <h5 class="section-subtitle">Tenable One enables exposure management for all of your assets, everywhere,
+                    so you can make actionable decisions to address them. Measure how effective is your security team at
+                    identifying critical flaws and how quickly they remediate issues to reduce risk.</h5>
+                <div class="risk-block-wrap">
+                    <div class="risk-block">
+                        <div class="img-wrap">
+                            <picture>
+                                <source media="(max-width:767px)" srcset="./img/quantify.jpg">
+                                <!-- <source media="(max-width:991px)" srcset="//res.cloudinary.com/spiralyze/image/upload/f_auto/Ubsersuggest/1227%20%7C%20Ubersuggest%20%7C%20Consulting%20%7C%20Hero%20Logos%20/Hero-Logo-Desktop.png"> -->
+                                <img src="./img/quantify.jpg" alt="Quantify Your Exposure">
+                            </picture>
+                        </div>
+                        <div class="content-wrap">
+                            <div class="block-title">Quantify Your Exposure</div>
+                            <div class="block-subtitle">Exposure View enables focused security efforts through clear,
+                                concise insight into your organization's security exposure through a unified global
+                                exposure score drawn from a variety of different data sources.</div>
+                            <p>It helps answer such critical questions as:</p>
+                            <ul class="exposure-list">
+                                <li>How secure are we?</li>
+                                <li>Where do we stand in our preventative and mitigation efforts?</li>
+                                <li>How are we doing over time?</li>
+                                <li>What are the key events?</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="risk-block">
+                        <div class="img-wrap">
+                            <picture>
+                                <source media="(max-width:767px)" srcset="./img/see-everything.jpg">
+                                <!-- <source media="(max-width:991px)" srcset="//res.cloudinary.com/spiralyze/image/upload/f_auto/Ubsersuggest/1227%20%7C%20Ubersuggest%20%7C%20Consulting%20%7C%20Hero%20Logos%20/Hero-Logo-Desktop.png"> -->
+                                <img src="./img/see-everything.jpg" alt="See Everything">
+                            </picture>
+                        </div>
+                        <div class="content-wrap">
+                            <div class="block-title">See Everything - Eliminate Blind Spots</div>
+                            <div class="block-subtitle">Comprehensive Asset Inventory provides full visibility into all
+                                assets and exposures regardless of data source (vulnerability management, web app
+                                security, cloud security and active directory security, etc.). This centralized view
+                                streamlines analysis, simplifies reporting and helps you take action faster.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- Cyber risk start end -->
+    <!-- product section start -->
+    <section class="Disrupt">
+        <div class="container">
+            <div class="section-title">Disrupt Attack Paths</div>
+            <div class="content-wrap">
+                <div class="content">Attack path visualization and prioritization capabilities provide a preemptively
+                    focused response to disrupt the paths attackers may take. It performs this function by mapping
+                    critical risks to the MITRE Attack framework to visualize all viable attack paths continuously —
+                    both on-prem and in the cloud.</div>
+                <div class="content">Answering such questions as, “What are all the assets that can be impacted if an
+                    attacker exploits CVE-2021-1337?” and “Which users or devices can access my most sensitive business
+                    assets?”</div>
+            </div>
+            <picture>
+                <source media="(max-width:767px)" srcset="./img/Disrupt-Attack-Paths-360.svg">
+                <source media="(max-width:1199px)" srcset="./img/Disrupt-Attack-Paths-768.svg">
+                <img src="./img/Disrupt-Attack-Paths-1440.svg" alt="Disrupt Attack Path">
+            </picture>
+        </div>
+    </section>
+    <!-- peoduct section end -->
+    <!-- Comparison section start -->
+    <section class="Comparison">
+        <div class="section-title">Make Comparisons</div>
+        <h5 class="section-subtitle">Compare cyber risk between business units or locations internally, and against
+            industry peers externally, to determine where and when to make key human and financial investments.</h5>
+        <picture>
+            <source media="(max-width:767px)" srcset="./img/Make-Comparisons-360-min.jpg">
+            <source media="(max-width:991px)" srcset="./img/Make-Comparisons-768-min.jpg">
+            <img src="./img/Make-Comparisons-1440-min.jpg" alt="Make Comparisons">
+        </picture>
+    </section>
+    <!-- Comparison section end -->
+    <!-- exposure section start -->
+    <section class="exposure-anlytics">
+        <div class="container">
+            <div class="section-title">Exposure Analytics</div>
+            <h5 class="section-subtitle">Data Aggregation, Risk Prioritization & Recommendations, Benchmarking.</h5>
+            <div class="card-wrap carousel-exposure owl-carousel owl-theme">
+                <div class="card">
+                    <div>
+                        <a class="logo-wrap" href="https://www.tenable.com/products/tenable-io" target="_blank">
+                            <img class="vulnerability" src="./img/Tenable.io.png"
+                                alt="Tenable-io">
+                        </a>
+                        <div class="block-content">The visualization, analytics and measurement solution to transform
+                            vulnerability data into meaningful insights.</div>
+                    </div>
+                    <div>
+                        <img src="./img/dotted-seperator.png" alt="Dotted seperator">
+                        <ul>
+                            <li>Unified Visibility of Your Attack Surface</li>
+                            <li>All Your Data Analyzed Continuously</li>
+                            <li>Predict the Vulnerabilities that Matter</li>
+                            <li>Speed Up Incident Response</li>
+                        </ul>
+                    </div>
+                    <div class="cta-learn-more">
+                        <a href="https://www.tenable.com/products/tenable-io" target="_blank">
+                            Learn More
+                            <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.4725 1.24609L14.5667 6.24609M14.5667 6.24609L9.4725 11.2461M14.5667 6.24609H1.2334"
+                                    stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <a class="logo-wrap"
+                            href="https://www.tenable.com/products/tenable-io/web-application-scanning" target="_blank">
+                            <img class="webapp" src="./img/Tenable.io-WAS-White-RGB.png"
+                                alt="Tenable-io">
+                        </a>
+                        <div class="block-content">Simple, scalable and automated vulnerability scanning for web
+                            applications.</div>
+                    </div>
+                    <div>
+                        <img src="./img/dotted-seperator.png" alt="Dotted seperator">
+                        <ul>
+                            <li>Results in Minutes</li>
+                            <li>Intuitive Scan Setup</li>
+                            <li>Fully Integrated Dashboards</li>
+                            <li>Easy Authentication Configuration</li>
+                        </ul>
+                    </div>
+                    <div class="cta-learn-more">
+                        <a href="https://www.tenable.com/products/tenable-io/web-application-scanning" target="_blank">
+                            Learn More
+                            <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.4725 1.24609L14.5667 6.24609M14.5667 6.24609L9.4725 11.2461M14.5667 6.24609H1.2334"
+                                    stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <a class="logo-wrap" href="https://www.tenable.com/products/tenable-cs" target="_blank">
+                            <img class="cloud" src="./img/Tenable-cs-White-RGB-logo.png"
+                                alt="Tenable-io">
+                        </a>
+                        <div class="block-content">Unify cloud security posture and vulnerability management.</div>
+                    </div>
+                    <div>
+                        <img src="./img/dotted-seperator.png" alt="Dotted seperator">
+                        <ul>
+                            <li>Complete Cloud Visibility </li>
+                            <li>CSPM and Governance</li>
+                            <li>Fully Integrated Dashboards</li>
+                            <li>Zero Day Threat Detection</li>
+                        </ul>
+                    </div>
+                    <div class="cta-learn-more">
+                        <a href="https://www.tenable.com/products/tenable-cs" target="_blank">
+                            Learn More
+                            <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.4725 1.24609L14.5667 6.24609M14.5667 6.24609L9.4725 11.2461M14.5667 6.24609H1.2334"
+                                    stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <a class="logo-wrap" href="https://www.tenable.com/products/tenable-ad" target="_blank">
+                            <img class="activedirectory" src="./img/Tenable-ad-White-RGB-logo.png"
+                                alt="Tenable-ad">
+                        </a>
+                        <div class="block-content">Continuously detect and respond to Active Directory attacks. No
+                            agents. No privileges. On-prem and in the cloud.</div>
+                    </div>
+                    <div>
+                        <img src="./img/dotted-seperator.png" alt="Dotted seperator">
+                        <ul>
+                            <li>Identify dangerous trust relationships</li>
+                            <li>Catch every change in your AD</li>
+                            <li>Analyze in-depth details of attacks</li>
+                            <li>Make the link between AD changes and malicious actions</li>
+                        </ul>
+                    </div>
+                    <div class="cta-learn-more">
+                        <a href="https://www.tenable.com/products/tenable-ad" target="_blank">
+                            Learn More
+                            <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.4725 1.24609L14.5667 6.24609M14.5667 6.24609L9.4725 11.2461M14.5667 6.24609H1.2334"
+                                    stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <a class="logo-wrap" href="https://www.tenable.com/products/tenable-asm" target="_blank">
+                            <img class="attack" src="./img/Tenable-asm-White-logo.png"
+                                alt="Tenable-asm">
+                        </a>
+                        <div class="block-content">Industry’s first external attack surface management (EASM) solution
+                            fully integrated into a vulnerability management platform.</div>
+                    </div>
+                    <div>
+                        <img src="./img/dotted-seperator.png" alt="Dotted seperator">
+                        <ul>
+                            <li>Discover What You Own</li>
+                            <li>Understand Business Context</li>
+                            <li>Easily Assess for Cyber Risk</li>
+                            <li>Available Through Tenable One </li>
+                        </ul>
+                    </div>
+                    <div class="cta-learn-more">
+                        <a href="https://www.tenable.com/products/tenable-asm" target="_blank">
+                            Learn More
+                            <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.4725 1.24609L14.5667 6.24609M14.5667 6.24609L9.4725 11.2461M14.5667 6.24609H1.2334"
+                                    stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- exposure section end -->
+    <!-- External Faq secton start -->
+    <section class="external-faq-section">
+        <div class="product-page__faq-section" id="faq">
+            <div class="container">
+                <h2 class="section-title">Tenable One FAQS</h2>
+                <div class="product-page__faq-item">
+                    <div class="faq-item-question">What is Tenable One? </div>
+                    <div class="faq-item-answer">
+                        <p>Tenable One is an Exposure Management Platform to help organizations gain visibility across
+                            the modern attack surface, focus efforts to prevent likely attacks and accurately
+                            communicate cyber risk to support optimal business performance.</p>
+                        <p>The platform combines the broadest vulnerability coverage spanning IT assets, cloud
+                            resources, containers, web apps and identity systems, builds on the speed and breadth of
+                            vulnerability coverage from Tenable Research and adds comprehensive analytics to prioritize
+                            actions and communicate cyber risk.</p>
+                        <p>Tenable One allows organizations to: </p>
+                        <ul>
+                            <li>Gain comprehensive visibility across the modern attack surface</li>
+                            <li>Anticipate threats and prioritize efforts to prevent attacks</li>
+                            <li>How are we doing over time?</li>
+                            <li>Communicate cyber risk to make better decisions</li>
+                        </ul>
+                    </div>
+                </div><!-- End FAQ Item -->
+                <div class="product-page__faq-item">
+                    <div class="faq-item-question">
+                        Which Tenable products are included in Tenable One?
+                    </div>
+                    <div class="faq-item-answer">
+                        <p>Tenable One includes the following Tenable products. The full functionality of each of these
+                            products is included in Tenable One. </p>
+                        <ul>
+                            <li>Tenable.io Vulnerability Management</li>
+                            <li>Tenable.io Web App Scanning</li>
+                            <li>Tenable.cs Cloud Security</li>
+                            <li>Tenable.ad Active Directory</li>
+                            <li>Tenable Lumin</li>
+                        </ul>
+                    </div>
+                </div><!-- End FAQ Item -->
+                <div class="product-page__faq-item">
+                    <div class="faq-item-question">Which capabilities are included in Tenable One? </div>
+                    <div class="faq-item-answer">
+                        <p>Capabilities include: </p>
+                        <ul>
+                            <li>Exposure View: Enables focused security efforts through clear, concise insight into your
+                                organization’s security exposure answering such critical questions as “how secure are
+                                we” and “where do we stand in our preventative and mitigation efforts?” “how are we
+                                doing over time?” and “what are the key events?” </li>
+                            <li>Tag Performance: Addresses which tags make up an exposure card and how much that group
+                                of assets contributes to a given exposure score. </li>
+                            <li>Attack Path Analysis: With more than 150 supported attack techniques, Attack Path
+                                Analysis gives security practitioners a glimpse into the attacker mindset. It
+                                continuously monitors gaps across endpoint, identity and cloud to proactively visualize
+                                attack paths and mitigate high-risk exposures. It performs this function by mapping
+                                critical risks to the MITRE ATT&CK framework to visualize all viable attack paths
+                                continuously — both on-prem and in the cloud. </li>
+                            <li>Asset Inventory: Centralized view of all assets, including IT, cloud, Active Directory
+                                (AD) and web apps, with the ability to create specific asset tags from a variety of
+                                sources. </li>
+                            <li>External Attack Surface Management (EASM): Provides insight into the external attack
+                                surface, empowering your organization to identify and reduce risks from the attacker’s
+                                perspective. </li>
+                            <li>Custom Exposure Cards: Enables concise, flexible communication of specific security
+                                insights. </li>
+                            <li>News: Integration with Tenable Research blogs allow for creation of custom exposure
+                                cards that reflect cyber security developments. </li>
+                        </ul>
+                    </div>
+                </div><!-- End FAQ Item -->
+                <div class="product-page__faq-item">
+                    <div class="faq-item-question">What is the difference between the Exposure View in Tenable One and
+                        the Cyber Exposure Score in Tenable Lumin? </div>
+                    <div class="faq-item-answer">
+                        <p> Lumin’s Cyber Exposure Score (CES) is derived from vulnerability prioritization and asset
+                            criticality scores. The Exposure View score in Tenable One is derived from the CES score
+                            along with inputs from data derived from the other products contained within Tenable One -
+                            including cloud, identity, web application security and attack surface management.</p>
+                    </div>
+                </div><!-- End FAQ Item -->
+                <div class="product-page__faq-item">
+                    <div class="faq-item-question">Are there two versions of Tenable One? </div>
+                    <div class="faq-item-answer">
+                        <p>Yes. There are two versions. </p>
+                        <ul class="without-bullets">
+                            <li>a. <strong>Tenable One Standard</strong> is comprised of:
+                                <br><span class="indented">Tenable.io, Tenable.io Web App Scanning, Tenable.cs,
+                                    Tenable.ad, Lumin &; Exposure View & Asset Inventory</span>
+                            </li>
+                            <li>b. <strong>Tenable One Enterprise</strong> is comprised of all features in Tenable One
+                                Standard plus:
+                                <br><span class="indented">Attack Pathway for breach & attack mitigation and External
+                                    Attack Surface Management for insight into the external attack surface, allowing
+                                    organizations to identify and reduce risks from the attacker’s perspective.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div><!-- End FAQ Item -->
+                <div class="product-page__faq-item">
+                    <div class="faq-item-question">Are there other options available for Tenable One? </div>
+                    <div class="faq-item-answer">
+                        <p>Yes, add-on SKUs are available for additional cloud scanners for WAS and Enterprise Attack
+                            Surface Management (ASM) daily frequency. Tenable One Enterprise provides customers with
+                            visibility of their internet-connected assets on a bi-weekly basis. With Tenable One
+                            Enterprise ASM Daily, the frequency is extended, giving customers a daily refresh rate for
+                            an up-to-date view of their external attack surface.</p>
+                    </div>
+                </div><!-- End FAQ Item -->
+                <div class="product-page__faq-item">
+                    <div class="faq-item-question">Is Tenable One cloud-based? </div>
+                    <div class="faq-item-answer">
+                        <p>Yes, Tenable One is a cloud-based solution. It is not available as an on-premise solution.
+                        </p>
+                    </div>
+                </div><!-- End FAQ Item -->
+            </div>
+        </div>
+    </section>
+    <!-- External faq section end -->
+    <!-- resorce section start -->
+    <section class="resource">
+        <div class="container">
+            <h2 class="section-title">Related Resources</h2>
+            <div class="card-wrap">
+                <div class="card">
+                    <a href="https://www.tenable.com/whitepapers/3-real-world-challenges-facing-cybersecurity-organizations-how-an-exposure-management" target="_blank">
+                        <picture class="hero-logo">
+                            <source media="(max-width:767px)"
+                                srcset="./img/Building-an-Exposure-Management-Program-360-min.jpg">
+                            <source media="(max-width:991px)"
+                                srcset="./img/Building-an-Exposure-Management-Program-768-min.jpg">
+                            <img src="./img/Building an Exposure Management Program-1440-min.jpg"
+                                alt="Building an Exposure">
+                        </picture>
+                        <div class="card-grediant">
+                            <div class="card-data">
+                                Building an Exposure Management Program
+                            </div>
+                            <div class="cta-download">
+                                <span>Download the Whitepaper<svg width="12" height="10" viewBox="0 0 12 10" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7.25778 1.24609L11.3332 5.24609M11.3332 5.24609L7.25778 9.24609M11.3332 5.24609H0.666504"
+                                            stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="https://www.tenable.com/analyst-research/2022-gartner-exposure-management-report" target="_blank">
+                    <picture class="hero-logo">
+                        <source media="(max-width:767px)" srcset="./img/Gartner-Report-360-min.jpg">
+                        <source media="(max-width:991px)" srcset="./img/Gartner-Report-768-min.jpg">
+                        <img src="./img/Gartner Report-1440-min.jpg" alt="Gartner Report">
+                    </picture>
+                    <div class="card-grediant">
+                        <div class="card-data">
+                            Gartner® Report: Implement a Continuous Threat Exposure Management (CTEM) Program
+                        </div>
+                        <div class="cta-download">
+                            <span>Download the Whitepaper<svg width="12" height="10" viewBox="0 0 12 10" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.25778 1.24609L11.3332 5.24609M11.3332 5.24609L7.25778 9.24609M11.3332 5.24609H0.666504"
+                                        stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="https://www.tenable.com/data-sheets/tenable-one" target="_blank">
+                        <picture class="hero-logo">
+                            <source media="(max-width:767px)" srcset="./img/Tenable-One-Data-Sheet-360-min.jpg">
+                            <source media="(max-width:991px)" srcset="./img/Tenable-One-Data-Sheet-768-min.jpg">
+                            <img src="./img/Tenable-One-Data-Sheet-1440-min.jpg" alt="Tenable One Data Sheet">
+                        </picture>
+                        <div class="card-grediant">
+                            <div class="card-data">
+                                Tenable One Data Sheet
+                            </div>
+                            <div class="cta-download">
+                                <span>Download the Whitepaper<svg width="12" height="10" viewBox="0 0 12 10" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7.25778 1.24609L11.3332 5.24609M11.3332 5.24609L7.25778 9.24609M11.3332 5.24609H0.666504"
+                                            stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- resource section end -->
+    <!-- footer start -->
+    <section class="footer">
+        <div class="container">
+            <div class="footer-left">© 2023 Tenable® Inc. All Rights Reserved</div>
+            <div class="footer-right">
+                <ul>
+                    <li class="privacy">
+                        <a href=" https://www.tenable.com/privacy-policy" target="_blank">Privacy Policy</a>
+                    </li>
+                    <li class="legal">
+                        <a href="https://www.tenable.com/legal" target="_blank">Legal</a>
+                    </li>
+                    <li class="Compliance">
+                        <a href="https://www.tenable.com/section-508-voluntary-product-accessibility"
+                            target="_blank">508 Compliance</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- footer end -->
+
+    <!-- Page Content End -->
+
+    <!-- Scripts  -->
+    <script src="https://www.tenable.com/lp/campaigns/22/main/js/jquery-3.4.1.min.js"></script>
+    <script src="https://info.tenable.com/js/forms2/js/forms2.js"></script>
+    <script src="https://munchkin.marketo.net/munchkin.js"></script>
+    <script src="https://www.tenable.com/lp/cookie.js"></script>
+    <script type="text/javascript" async src="https://play.vidyard.com/embed/v4.js"></script>
+    <!-- <script src="https://www.tenable.com/evaluations/api/v1/tenable-evals.js"></script>
+        <script src="https://www.tenable.com/themes/custom/tenable/js/buy.js"></script> -->
+    <!-- <script type="text/javascript" src="https://www.tenable.com/themes/custom/tenable/dist/main.js"></script> -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src='js/owl.carousel.min.js'></script>
+    <script>
+        $(".carousel-exposure").owlCarousel({
+            loop: false,
+            nav: false,
+            dots: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    margin: 4,
+                    stagePadding: 63,
+                },
+                550: {
+                    items: 2,
+                    margin: 5,
+                    stagePadding: 32,
+                },
+                768: {
+                    items: 3,
+                    margin: 5,
+                    stagePadding: 32,
+                },
+                1200: {
+                    items: 5,
+                    margin: 4,
+                }
+            }
+        });
+    </script>
+    <script src="./js/script.js"></script>
+
+
+    <script type="text/javascript">
+        console.log('   ____     _                   _     _\r\n \/      \\  | |_ ___ _ __   __ _| |__ | | ___\r\n\/   \/\\   \\ | __\/ _ \\ \'_ \\ \/ _` | \'_ \\| |\/ _ \\\r\n\\   \\\/   \/ | ||  __\/ | | | (_| | |_) | |  __\/\r\n \\ ____ \/   \\__\\___|_| |_|\\__,_|_.__\/|_|\\___|\r\n\r\nIf you\'re looking at this, we want to hire you.\r\nhttps:\/\/tenable.com\/careers');
+    </script>
+    <script>
+
+    </script>
+</body>
+
+</html>
